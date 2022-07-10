@@ -1,0 +1,85 @@
+.main-brand
+{
+    font-size: 50px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: Bahnschrift;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.row
+{
+    display: flex;
+    align-items: stretch;
+}
+.story-title
+{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.story-image
+{
+    width: 100%;
+}
+.story-text
+{
+    line-height: 1.7;
+    font-size: 18px;
+}
+.story
+{
+    border: 2px solid black;
+    padding: 5px;
+}
+.quarter
+{
+    width: 25%;
+}
+.half
+{
+    width: 50%;
+}
+.three-quarter
+{
+    width: 75%;
+}
+.nav-list
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.nav-item
+{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold;
+    font-family: Bahnschrift, sans-serif;
+}
+.nav-item a
+{
+    text-decoration: none;
+}
+.nav-item a:hover
+{
+    text-decoration: underline;
+}
+.nav-item:nth-child(1){background-color: aqua}
+.nav-item:nth-child(2){background-color: chartreuse}
+.nav-item:nth-child(3){background-color: navajowhite}
+.nav-item:nth-child(4){background-color: darkgreen }
+.nav-item:nth-child(5){background-color: darkseagreen}
+
+
